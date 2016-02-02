@@ -12,6 +12,48 @@ img {
 }
 
 #container {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
+
+.myButton {
+	position: absolute;
+	top: 250px;
+	left: 550px;
+	background-color: #ffffff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.head-down {
+	color: white;
+	
+}
+
+.head-down li {
+	margin-left: 10%;
+	display: inline-block;
+}
+
+.head-down ul ul {
+	margin-right: 10%;
+	float:right;
+}
+
