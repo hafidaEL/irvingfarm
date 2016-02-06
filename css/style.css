@@ -76,6 +76,10 @@ ul li {
 	padding-right: 20px;
 }
 
+a{
+	text-decoration:none;
+}
+
 .head-logo {
 	background-color: white;
 	margin-top: -5px;
@@ -186,9 +190,9 @@ ul li {
 }
 
 .letter {
-	position: absolute;
-	top: 11%;
-	right: 32%;
+	position: relative;
+	top: 32%;
+	left: 53%;
 }
 
 .dap_text_box
@@ -224,4 +228,36 @@ box-shadow: 0px 0px 8px #FAF7F7;
 	width: 32px;
 	height: 31px;
 	margin: 50px auto;
+}
+
+.colonne ul li {
+	display: block;
+}
+
+.colonne {
+	display: flex;
+	justify-content: center;
+}
+
+.col6 ul li {
+	display: inline;
+}
+
+hr {
+	width: 60%;
+	font-weight: bold;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    border: 0;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.fin {
+	font-size: 8px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-around;
 }
