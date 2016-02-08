@@ -217,6 +217,7 @@ box-shadow: 0px 0px 8px #FAF7F7;
 }
 
 .submit-button1 {
+	display: inline-block;
     background-color: #000;
     color: #fff;
     font-weight: bold;
@@ -236,6 +237,10 @@ box-shadow: 0px 0px 8px #FAF7F7;
 .logo-pied {
 	width: 3%;
 	margin: 50px auto;
+}
+
+.logo-pied img {
+	width: 100%;
 }
 
 .colonne ul li {
@@ -400,7 +405,7 @@ hr {
 }
 
 .dap_text_box {
-	width: 487px;
+	width: 564px;
 }
 
 .logo-pied {
@@ -409,6 +414,25 @@ hr {
 
 .pied {
 	margin-top: 15%;
+}
+
+
+.submit-button2 {
+	display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none !important;
+    font-size: 12px;
+    padding: 18px;
+    letter-spacing: 3px;
+    border-radius: 0;
+    margin: 0;
+    margin-left: -4px;
+}
+
+.submit-button1 {
+	display: none;
 }
 
 .colonne ul li {
@@ -421,6 +445,14 @@ hr {
 	color: black;
 }
 
+.col1, .col2, .col3, .col4, .col5, .col6 {
+	width: 40%;
+}
+
+.colonne li:first-child {
+	font-weight: bold;
+}
+
 .colonne {
 	display: flex;
 	justify-content: center;
@@ -430,10 +462,142 @@ hr {
 }
 
 
+}  /*FIN MEDIA QUERIES MAX 768px*/	
+
+
+
+@media screen and (max-width: 320px){
+	.head .shop {
+    left: 24%;
+    position: absolute;
+    top: 50%;
 }
-	
+
+.texte h3 {
+	font-size: 10pt;
+}
+
+.texte p {
+	font-size: 8pt;
+}
+
+.texte {
+    background-color: #fff;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    display: inline-block;
+    height: 65%;
+    margin-left: 15%;
+    width: 47%;
+}
+
+.vignette {
+    height: 100%;
+    margin-top: 50px;
+    width: 57%;
+	margin-left: 5%;
+}
+
+.dap_text_box {
+    width: 47%;
+    margin-left: 14%;
+    font-size: 10pt;
+}
+
+.colonne {
+	margin-top: 30%;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+	width: 50%;
+}
+
+.submit-button2 {
+    background-color: #000;
+    border: medium none !important;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    margin: 0 0 0 -4px;
+    padding: 16px;
+}
 
 
+.colonne {
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.colonne li:first-child {
+	font-weight: bold;
+}
 
 
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px){
+
+.head .shop {
+    left: 26%;
+    position: absolute;
+    top: 50%;
+}
+
+.texte h3 {
+	font-size: 10pt;
+}
+
+.texte p {
+	font-size: 9pt;
+}
+
+.texte {
+    background-color: #fff;
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    display: inline-block;
+    height: 65%;
+    margin-left: 15%;
+    width: 47%;
+}
+
+.vignette {
+    height: 100%;
+    margin-top: 50px;
+    width: 57%;
+	margin-left: 5%;
+}
+
+.dap_text_box {
+    width: 47%;
+    margin-left: 16%;
+    font-size: 10pt;
+}
+
+.colonne {
+	margin-top: 30%;
+}
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+	width: 50%;
+}
+
+
+.colonne {
+	font-size: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.colonne li:first-child {
+	font-weight: bold;
+}
+
+}
 
